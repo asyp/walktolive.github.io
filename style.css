@@ -1,0 +1,130 @@
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+header {
+  margin: 0 auto;
+  background: #ff7627;
+  padding: 25px 0 0 0;
+  overflow: hidden;
+  text-align: center;
+  background: #ff7627;
+  background: -webkit-linear-gradient(top, rgba(255,118,39,1), rgba(255,255,255,.4));
+  background: -moz-linear-gradient(top, rgba(255,118,39,1), rgba(255,255,255,.4));
+}
+
+nav {
+  float: center-auto;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: thin;
+  background: cover;
+  background-color: white;
+  border-bottom: solid #840a07;
+  border-top: solid #840a07;
+}
+
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+.title1 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title2{
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.date{
+  color:#840a07;
+  font-family: 'Caveat Brush', Helvetica, Arial, sans-serif;
+  font: bold;
+  font-size: 75px;
+  padding: 10px 0 10px 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 10px 0 0 40px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.nav ul li a {
+  color: white;
+  background-color: #840a07;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background-color: blue;
+}
+
+.key{
+  height: 250px;
+  background-image: url("http://i.imgur.com/chzueYV.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  display: table;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.basic{
+  color: #ffffff;
+  text-shadow: 1px ;
+  height: 100%;
+  width: 742px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  margin: 0 auto;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background: -webkit-linear-gradient(bottom, rgba(132,10,7,.8), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(132,10,7,.8), rgba(0,0,0,.4)); 
+}
+
+.forms{
+  width: 250px;
+  padding-top: 30px;
+  margin: auto;
+  color: #840a07;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #840a07;
+  padding: 25px 0 5px;
+  text-align: center;
+}
+footer .logo {
+  color: white;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 40px;
+}
